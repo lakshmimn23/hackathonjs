@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function reversestr(str1){
+            return str1.split('').reverse().join('');
+        }
+
+        str = 'malayalam';
+        //str = english
+        str2 = reversestr('malayalam');
+
+       // console.log(str2);
+        if(str == str2){
+            console.log(`The ${str} word is Polindrome`);
+        }else {
+            console.log(`The ${str} word is not a Polindrome`);
+        }
+    </script>
+</body>
+</html>
